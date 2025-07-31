@@ -41,3 +41,4 @@ php artisan filament:optimize
 - php artisan make:seeder UserSeeder
 - php artisan make:filament-resource User --generate --view
 - php artisan filament:optimize
+- php artisan filament:optimize-clear
