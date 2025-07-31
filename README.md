@@ -35,3 +35,9 @@ php artisan filament:optimize
 - php artisan migrate:fresh
 - php artisan db:seed
 - php artisan make:filament-user
+
+# Create Filament User Resource
+
+- php artisan make:seeder UserSeeder
+- php artisan make:filament-resource User --generate --view
+- php artisan filament:optimize
