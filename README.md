@@ -14,10 +14,10 @@
 
 - composer update
 - npm install
+- npm run build
 - touch database/database.sqlite
 - php artisan migrate:fresh
 - php artisan db:seed
-- npm run build
 
 # Install Filament
 
