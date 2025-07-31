@@ -13,6 +13,7 @@
         "ext-sqlite3": "*"  
 
 - composer update
+- npm install
 - touch database/database.sqlite
 - php artisan migrate:fresh
 - php artisan db:seed
