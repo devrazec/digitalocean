@@ -25,16 +25,15 @@
 
 # Install Filament
 
-composer require filament/filament:"^3.3" -W
-php artisan filament:install --panels
-php artisan make:filament-user
-php artisan filament:optimize
+- composer require filament/filament:"^3.3" -W
+- php artisan filament:install --panels
+- php artisan make:filament-user
+- php artisan filament:optimize
 
 # Digiatal Ocean
 
 - php artisan migrate:fresh
 - php artisan db:seed
-- php artisan make:filament-user
 
 # Create Filament User Resource
 
@@ -42,3 +41,15 @@ php artisan filament:optimize
 - php artisan make:filament-resource User --generate --view
 - php artisan filament:optimize
 - php artisan filament:optimize-clear
+
+# View Interface
+
+| Description | Link |
+|-------------|------|
+| Online view | https://laravel-app-cr3dx.ondigitalocean.app/ |
+| User | admin@admin.com |
+| Password | password |
+
+![Pic1](./public/img/digitalocean.png)  
+
+![Pic2](./public/img/filament.png)  
